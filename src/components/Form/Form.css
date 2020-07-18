@@ -1,0 +1,31 @@
+.form{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="txt"]{
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"]{
+  border-radius: 7px;
+  height: 40px;
+  width: 40px;
+  background: #f04c64;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0 ,0 ,0, 0.8);
+}
+
+.form button:hover{
+  font-size: large;
+  transition: all 180ms;
+}
